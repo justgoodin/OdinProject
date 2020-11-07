@@ -3,28 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png" type="image/x-icon">
+    <title>Google</title>
 </head>
 <body>
     <nav style="top: 0; left: 0; right: 0; width:100%;">
-        <div>
-            <a href="hhttps://mail.google.com/mail/?tab=wm&ogbl">Gmail</a>
-            <a href="https://www.google.co.in/imghp?hl=en&tab=wi&ogbl">Images</a>
+        <div class="nav-container">
+            <ul>
+                <li><a id="sign-in" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ">Sign In</a></li>
+                <li><a href="https://www.google.co.in/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+                <li><a href="hhttps://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
+            </ul>
         </div>
     </nav>
     <main>
-        <div>
+        <div id="main-wrapper">
             <div class="logo">
                 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Logo">
             </div>
-            <div>
-                Search box
+            <div class="search-bar">
+                <form>
+                    <input type="text" id="search">
+                    <span class="buttons">
+                        <input type="submit" value="Google Search">
+                        <input type="submit" value="I'm Feeling Lucky">
+                    </span>
+                </form>
             </div>
-            <div>
-                Buttons
-            </div>
-            <div>
-                Google offered in:
+            <div class="lang-container">
+                Google offered in:        
+                <span class="langs">
+                    <a href="https://www.google.com/setprefs?sig=0_gZ7PO_Wc8MNR922GfMlsw5fzK4Q%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwinraD78O_sAhUw7XMBHbrqCJEQ2ZgBCBQ">हिन्दी</a>
+                    <a href="https://www.google.com/setprefs?sig=0_gZ7PO_Wc8MNR922GfMlsw5fzK4Q%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwinraD78O_sAhUw7XMBHbrqCJEQ2ZgBCBU">বাংলা</a>
+                    <a href="https://www.google.com/setprefs?sig=0_gZ7PO_Wc8MNR922GfMlsw5fzK4Q%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwinraD78O_sAhUw7XMBHbrqCJEQ2ZgBCBY">తెలుగు</a>
+                    <a href="https://www.google.com/setprefs?sig=0_gZ7PO_Wc8MNR922GfMlsw5fzK4Q%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwinraD78O_sAhUw7XMBHbrqCJEQ2ZgBCBc">मराठी</a>
+                    <a href="https://www.google.com/setprefs?sig=0_gZ7PO_Wc8MNR922GfMlsw5fzK4Q%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwinraD78O_sAhUw7XMBHbrqCJEQ2ZgBCBg">தமிழ்</a>
+                    <a href="https://www.google.com/setprefs?sig=0_gZ7PO_Wc8MNR922GfMlsw5fzK4Q%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwinraD78O_sAhUw7XMBHbrqCJEQ2ZgBCBg">ગુજરાતી</a>
+                    <a href="https://www.google.com/setprefs?sig=0_gZ7PO_Wc8MNR922GfMlsw5fzK4Q%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwinraD78O_sAhUw7XMBHbrqCJEQ2ZgBCBo">ಕನ್ನಡ</a>
+                    <a href="https://www.google.com/setprefs?sig=0_gZ7PO_Wc8MNR922GfMlsw5fzK4Q%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwinraD78O_sAhUw7XMBHbrqCJEQ2ZgBCBs">മലയാളം</a>
+                    <a href="https://www.google.com/setprefs?sig=0_gZ7PO_Wc8MNR922GfMlsw5fzK4Q%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwinraD78O_sAhUw7XMBHbrqCJEQ2ZgBCBw">ਪੰਜਾਬੀ</a>
+                </span>
             </div>
         </div>
     </main>
