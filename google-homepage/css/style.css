@@ -3,23 +3,25 @@ body {
     font-size: small;
     margin: 0;
     padding: 0;
+    min-height: 80%;
+    position: relative;
 }
 
 a {
     text-decoration: none;
 }
-#sign-in{
-    border: 1px solid #4285f4;
-    outline: none;
+
+a:hover{
+    text-decoration: underline;
+}
+
+#sign-in {
     font-weight: bold;
     color: #ffffff;
     background-color: #4285f4;
-    opacity: 1;
     display: inline-block;
-    line-height: 28px;
     vertical-align: middle;
     text-align: left;
-    border-radius: 2px;
     padding: 0 12px;
     text-decoration: none;
 }
@@ -27,19 +29,13 @@ a {
 .nav-container{
     line-height: 30px;
     user-select: none;
-    top: 0;
-    left: 0;
-    right: 0;
     float: right;
     padding-right: 30px;
-    display: flex;
 }
 
 .nav-container > ul {
     list-style-type: none;
-    float: top;
     padding: 0;
-    overflow: hidden;
     width: 100%;
 }
 
@@ -78,37 +74,50 @@ a {
     border: 1px solid #dfe1e5;
     margin: 0 auto;
     max-width: 482px;
+    margin-bottom: 1em;
 }
 #search:hover {
     box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
 }
 
-#fsl {
-    float: left;
-    display: flex;
-    margin-left: 30px;
+.buttons > input {
+    margin: 1em 1em 1em 1em;
 }
 
-#fsr {
-    float: right;
-    display: flex;
-    margin-right: 30px;
+.langs > a {
+    margin: 0.5em;
+}
 
+footer {
+    margin-top: 10%;
+    padding-left: 27px;
+    background-color: #f2f2f2;
+    border:  1px solid #e4e4e4;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
 
-
-/**
-
-
-
-.buttons{
+.bottom-bar {
     display: block;
-    text-align: -webkit-center;
-    margin: 20px;
-    padding: 5px;
 }
 
-.buttons > span {
-    padding-right: 5px;
+.bottom-bar span {
+    line-height: 40px;
 }
 
-*/
+.fsl > a {   
+    margin: 0.5em 0.5em 0.5em 0;
+    color: #5f6368;
+}
+
+.fsr {
+    float: right;
+    margin-right: 4em;
+}
+
+.fsr > a {   
+    margin: 0.5em 0.5em 0.5em 0;
+    color: #5f6368;
+}
+
